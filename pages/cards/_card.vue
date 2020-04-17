@@ -122,11 +122,11 @@ export default {
         updatedAt = Data.inspection_persons.date
         break
       case 'number-of-reports-to-covid19-telephone-advisory-center':
-        title = this.$t('新型コロナコールセンター相談件数')
+        title = this.$t('新型コロナウイルス感染症に関する相談件数')
         updatedAt = Data.contacts.date
         break
       case 'number-of-reports-to-covid19-consultation-desk':
-        title = this.$t('新型コロナウイルス感染症に関する相談件数')
+        title = this.$t('新型コロナ受診相談窓口相談件数')
         updatedAt = Data.querents.date
         break
       case 'predicted-number-of-toei-subway-passengers':
